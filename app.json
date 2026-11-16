@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Katılan",
+    "slug": "katilan",
+    "version": "1.8.6",
+    "orientation": "landscape",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.reservaplus.tablet"
+    },
+    "android": {
+      "package": "com.reservaplus.tablet",
+      "softwareKeyboardLayoutMode": "resize",
+      "versionCode": 33,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/katilan-logo.png",
+        "backgroundColor": "#0930EF"
+      }
+    },
+    "icon": "./assets/katilan-logo.png",
+    "plugins": [
+      "expo-notifications"
+    ],
+    "splash": {
+      "image": "./assets/katilan-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0930EF"
+    }
+  }
+}
